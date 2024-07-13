@@ -40,16 +40,36 @@ This repository contains the frontend for a Text Processor application. Follow t
    docker compose up -d --build
    ```
 
-4. Run unit tests (Optional):
-   ```bash
-   docker exec -it text-processor-api-app-1 sh
-   npm test
-   ```
-5. Run e2e tests (Optional):
-   ```bash
-   docker exec -it text-processor-api-app-1 sh
-   npm run test:e2e
-   ```
+---
+
+## Go for step 4-5 if you wish to run tests:
+
+4(a). Access container shell (Optional)
+
+```bash
+docker exec -it text-processor-api-app-1 sh
+```
+
+4(b). Run unit tests (Optional):
+
+```bash
+npm test
+```
+
+5(a). Access container shell (Optional)
+
+```bash
+docker exec -it text-processor-api-app-1 sh
+```
+
+5(b). Run e2e tests (Optional):
+
+```bash
+npm run test:e2e
+```
+
+---
+
 6. Open another terminal tab or window. Clone the this (frontend) repository::
 
    ```bash
