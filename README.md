@@ -42,10 +42,12 @@ This repository contains the frontend for a Text Processor application. Follow t
 
 4. Run unit tests (Optional):
    ```bash
+   docker exec -it text-processor-api-app-1 sh
    npm test
    ```
 5. Run e2e tests (Optional):
    ```bash
+   docker exec -it text-processor-api-app-1 sh
    npm run test:e2e
    ```
 6. Open another terminal tab or window. Clone the this (frontend) repository::
@@ -67,4 +69,10 @@ This repository contains the frontend for a Text Processor application. Follow t
 
    ```bash
    http://localhost:3001
+   ```
+
+9. Access the API Docs
+
+   ```bash
+   http://localhost:3000/docs
    ```
