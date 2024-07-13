@@ -62,3 +62,9 @@ This repository contains the frontend for a Text Processor application. Follow t
    ```bash
    docker compose up -d --build
    ```
+
+8. Access the application
+
+   ```bash
+   http://localhost:3001
+   ```
